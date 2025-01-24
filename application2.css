@@ -1,0 +1,30 @@
+body {
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox on the body */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: lightgray; /* Optional background color */
+}
+
+.demo {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+    text-align: center; /* Center text within each item */
+
+}
+
+h2 {
+    color: burlywood;
+    margin: 0; /* Remove default margin */
+}
+
+p {
+    color: blueviolet;
+    margin: 0; /* Remove default margin */
+}
